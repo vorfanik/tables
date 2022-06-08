@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Gurmukhi&display=swap');
+
+table:nth-of-type(1) {
+    border-collapse: collapse;
+    border: 2px solid orange;
+}
+
+table:nth-of-type(1) td, table:nth-of-type(1) th {
+    width: 150px;
+    padding: 20px;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-weight: bold;
+    border: 1px solid orange;
+}
+
+table:nth-of-type(1) th {
+    background: orange;
+}
+
+table:nth-of-type(1) td {
+    background: rgb(6, 6, 143);
+    color: white;
+    text-align: left;
+}
+
+table:nth-of-type(1) tr:nth-of-type(1) th:nth-of-type(2) {
+    background-color: rgb(213, 138, 0);
+}
+
+table:nth-of-type(2) {
+    border-collapse: collapse;
+}
+
+table:nth-of-type(2) td, table:nth-of-type(2) th {
+    width: 130px;
+    padding: 20px;
+    text-align: left;
+    font-family: Kdam Thmor Pro;
+    color: white;
+    border: 3px solid white;
+}
+
+table:nth-of-type(2) th {
+    background: purple;
+    font-size: large;
+    letter-spacing: 3px;
+}
+
+table:nth-of-type(2) tr:nth-of-type(odd){
+    background: rgb(214, 125, 214);
+}
+
+table:nth-of-type(2) tr:nth-of-type(even){
+    background: rgb(234, 182, 234);
+}
+
+table:nth-of-type(3) {
+    border-collapse: collapse;
+    border: 3px solid black;
+    margin-bottom: 30px;
+}
+
+table:nth-of-type(3) td, table:nth-of-type(3) th {
+    width: 200px;
+    padding: 7px;
+    text-align: left;
+    font-family: Tiro Gurmukhi;
+    color: black;
+    border: 3px solid black;
+}
+
+table:nth-of-type(3) th {
+    width: 57%;
+    letter-spacing: 2px;
+}
+
+table:nth-of-type(3) tr:nth-of-type(4) td {
+    background-color: orange;
+    color: white;
+}
+
+table:nth-of-type(3) tr:nth-of-type(5) td{
+    background-color: blue;
+    color: white;
+}
+
+table:nth-of-type(3) tr:nth-of-type(6) td {
+    background-color: green;
+    color: white;
+}
